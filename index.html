@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rajith Kumarapeli — Photo Editor</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="wrap">
+  <header class="hero">
+    <p class="eyebrow-name serif">Rajith Kumarapeli</p>
+    <p class="role-line">Photo Editor — Photoshop &amp; Lightroom</p>
+    <p class="hero-copy">
+      I retouch and colour-correct portrait and event photography, working from raw files
+      through to a polished final set. Editing since 2018, currently averaging
+      <span class="hero-stat serif">10 images every 15–20 minutes</span>
+      without cutting corners on quality. Drag the sliders below to see the edits.
+    </p>
+    <div class="cta-row">
+      <a class="btn btn-primary" href="https://www.facebook.com/AuroraStudioPhotography" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M13.5 21v-7.9h2.65l.4-3.08h-3.05V8.05c0-.89.25-1.5 1.52-1.5h1.63V3.8C15.94 3.72 15.1 3.66 14.13 3.66c-2.36 0-3.98 1.44-3.98 4.09v2.28H7.5v3.08h2.65V21h3.35z"/></svg>
+        Facebook
+      </a>
+      <a class="btn btn-ghost" href="https://www.tiktok.com/@aurorastudionz" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16.6 5.82c-.9-.78-1.47-1.9-1.6-3.16h-3.08v13.44a2.6 2.6 0 1 1-1.84-2.49v-3.13a5.6 5.6 0 1 0 4.92 5.55V9.4a6.6 6.6 0 0 0 3.8 1.2V7.53a3.9 3.9 0 0 1-2.2-1.71z"/></svg>
+        TikTok
+      </a>
+    </div>
+    <p class="contact-line">
+      <span>Hamilton, New Zealand</span>
+      <span>rajithakumarapeli@gmail.com</span>
+      <span>027 332 5743</span>
+    </p>
+  </header>
+
+  <section id="work">
+    <div class="section-head">
+      <h2 class="section-title serif">Before &amp; after</h2>
+      <p class="section-note">Colour correction, skin retouching and background clean-up — drag each divider to compare.</p>
+    </div>
+
+    <div class="compare-block">
+      <div class="compare">
+        <span class="tag tag-before">BEFORE</span>
+        <span class="tag tag-after">AFTER</span>
+        <img class="img-before" src="img/baby-before.jpg" alt="Newborn portrait, unedited raw image">
+        <img class="img-after" src="img/baby-after.jpg" alt="Newborn portrait, retouched and colour corrected">
+        <div class="compare-handle"></div>
+        <input type="range" min="0" max="100" value="50" aria-label="Drag to compare before and after — newborn portrait">
+      </div>
+      <div class="compare-meta">
+        <span class="compare-label serif">Newborn portrait</span>
+        <span class="compare-caption">Skin tone correction, cropping, and background cleanup</span>
+      </div>
+    </div>
+
+    <div class="compare-block">
+      <div class="compare wide">
+        <span class="tag tag-before">BEFORE</span>
+        <span class="tag tag-after">AFTER</span>
+        <img class="img-before" src="img/trike-before.jpg" alt="Toddler on ride-on toy, unedited raw image">
+        <img class="img-after" src="img/trike-after.jpg" alt="Toddler on ride-on toy, retouched and colour graded">
+        <div class="compare-handle"></div>
+        <input type="range" min="0" max="100" value="50" aria-label="Drag to compare before and after — toddler portrait">
+      </div>
+      <div class="compare-meta">
+        <span class="compare-label serif">Golden-hour toddler shoot</span>
+        <span class="compare-caption">Colour grading and exposure balance for warm evening light</span>
+      </div>
+    </div>
+
+    <div class="compare-block">
+      <div class="compare">
+        <span class="tag tag-before">BEFORE</span>
+        <span class="tag tag-after">AFTER</span>
+        <img class="img-before" src="img/fence1-before.jpg" alt="Outdoor fashion portrait on a bridge, unedited raw image">
+        <img class="img-after" src="img/fence1-after.jpg" alt="Outdoor fashion portrait on a bridge, retouched and colour graded">
+        <div class="compare-handle"></div>
+        <input type="range" min="0" max="100" value="50" aria-label="Drag to compare before and after — fashion portrait, pose one">
+      </div>
+      <div class="compare-meta">
+        <span class="compare-label serif">Outdoor fashion portrait</span>
+        <span class="compare-caption">Contrast and colour grade to lift a flat, shaded scene</span>
+      </div>
+    </div>
+
+    <div class="compare-block">
+      <div class="compare">
+        <span class="tag tag-before">BEFORE</span>
+        <span class="tag tag-after">AFTER</span>
+        <img class="img-before" src="img/fence2-before.jpg" alt="Outdoor fashion portrait leaning on a fence, unedited raw image">
+        <img class="img-after" src="img/fence2-after.jpg" alt="Outdoor fashion portrait leaning on a fence, retouched and colour graded">
+        <div class="compare-handle"></div>
+        <input type="range" min="0" max="100" value="50" aria-label="Drag to compare before and after — fashion portrait, pose two">
+      </div>
+      <div class="compare-meta">
+        <span class="compare-label serif">Outdoor fashion portrait, pose two</span>
+        <span class="compare-caption">Skin retouching and tonal consistency with the rest of the set</span>
+      </div>
+    </div>
+
+    <div class="compare-block">
+      <div class="compare">
+        <span class="tag tag-before">BEFORE</span>
+        <span class="tag tag-after">AFTER</span>
+        <img class="img-before" src="img/portrait-before.jpg" alt="Close-up portrait, unedited raw image">
+        <img class="img-after" src="img/portrait-after.jpg" alt="Close-up portrait, retouched and colour corrected">
+        <div class="compare-handle"></div>
+        <input type="range" min="0" max="100" value="50" aria-label="Drag to compare before and after — close-up portrait">
+      </div>
+      <div class="compare-meta">
+        <span class="compare-label serif">Close-up portrait</span>
+        <span class="compare-caption">Skin smoothing, colour balance and light retouching</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="more-work">
+    <div class="section-head">
+      <h2 class="section-title serif">Finished pieces</h2>
+      <p class="section-note">Delivered edits from recent shoots.</p>
+    </div>
+    <div class="showcase-grid">
+      <div class="showcase-item">
+        <img src="img/family.jpg" alt="Family portrait on a park bench, edited and colour graded">
+        <p class="showcase-caption"><strong>Family session</strong>Colour grading and consistency across a multi-subject scene</p>
+      </div>
+      <div class="showcase-item">
+        <img src="img/balloons.jpg" alt="Birthday portrait with balloons, edited and colour graded">
+        <p class="showcase-caption"><strong>Birthday portrait</strong>Retouching and warm colour grade for an evening event</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="section-head">
+      <h2 class="section-title serif">Tools &amp; skills</h2>
+    </div>
+    <ul class="skills-list">
+      <li>Adobe Photoshop</li>
+      <li>Adobe Lightroom</li>
+      <li>Colour correction</li>
+      <li>Skin retouching</li>
+      <li>Batch processing</li>
+      <li>Portrait &amp; event editing</li>
+      <li>Face swaps &amp; head replacements</li>
+      <li>High-volume workflow</li>
+    </ul>
+  </section>
+
+  <footer>
+    <div class="footer-grid">
+      <div>
+        <p class="footer-name">Rajith Kumarapeli</p>
+        <p class="footer-role">Photo Editor, Hamilton NZ</p>
+      </div>
+      <div class="footer-links">
+        <a href="mailto:rajithakumarapeli@gmail.com">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="5" width="18" height="14" rx="1.5"/><path d="M3.5 6.5 12 13l8.5-6.5"/></svg>
+          rajithakumarapeli@gmail.com
+        </a>
+        <a href="tel:0273325743">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M6.6 10.2c1.3 2.7 3.5 4.9 6.2 6.2l2-2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.5.6.6 0 1 .4 1 1v3.2c0 .6-.4 1-1 1C10.7 20 4 13.3 4 5c0-.6.4-1 1-1h3.2c.6 0 1 .4 1 1 0 1.2.2 2.4.6 3.5.1.4 0 .8-.2 1z"/></svg>
+          027 332 5743
+        </a>
+        <a href="https://www.facebook.com/AuroraStudioPhotography" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M13.5 21v-7.9h2.65l.4-3.08h-3.05V8.05c0-.89.25-1.5 1.52-1.5h1.63V3.8C15.94 3.72 15.1 3.66 14.13 3.66c-2.36 0-3.98 1.44-3.98 4.09v2.28H7.5v3.08h2.65V21h3.35z"/></svg>
+          facebook.com/AuroraStudioPhotography
+        </a>
+        <a href="https://www.tiktok.com/@aurorastudionz" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16.6 5.82c-.9-.78-1.47-1.9-1.6-3.16h-3.08v13.44a2.6 2.6 0 1 1-1.84-2.49v-3.13a5.6 5.6 0 1 0 4.92 5.55V9.4a6.6 6.6 0 0 0 3.8 1.2V7.53a3.9 3.9 0 0 1-2.2-1.71z"/></svg>
+          tiktok.com/@aurorastudionz
+        </a>
+      </div>
+    </div>
+    <p class="footer-bottom">© 2026 Rajith Kumarapeli. All images shown are the photographer's own work, edited by Rajith.</p>
+  </footer>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
